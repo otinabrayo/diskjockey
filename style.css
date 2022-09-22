@@ -1,0 +1,462 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.container{
+    background: url(./playing_cards_cards_deck_212649_3840x2400.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    position: relative;
+}
+header{
+    height: 70px;
+    display: flex;
+}
+header div{
+   margin-top: 20px;
+   margin-right: 20px;
+}
+.back{
+    min-width: fit-content;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+main{
+    text-align: center;
+    margin: auto;
+}
+main h1{
+    font-size: 3.5em;
+}
+header span{
+    flex: 1;
+    font-size: 25px;
+    color: rgb(235, 81, 25);
+    font-weight: 600;
+    letter-spacing: .02em;
+    padding: .7em 4em;
+    text-shadow: 2px 2px 1px rgba(17, 17, 17, 0.856);
+    cursor: pointer;
+    margin-top: 10px;
+}
+.list{
+    list-style: none;
+    display:flex;
+    flex: 1.5;
+}
+li a{
+    text-decoration: none;
+    margin: 0 2em;
+    cursor: pointer;
+    color: white;
+}
+.container h1{
+    color: white;
+    padding-top: 100px;
+}
+main p{
+    font-size:1.2em;
+    color: rgb(255, 255, 255);
+}
+main input{
+    padding: .8em 2em;
+    border-radius: .3em;
+    border: 1px solid rgb(219, 110, 71);
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+main input:hover{
+    background-color: rgba(219, 110, 71, 0.568);
+}
+.list a:hover{
+    border-bottom: 2px solid rgb(219, 110, 71);
+    transition: .5s;
+}
+article input:hover{
+    background-color: rgb(219, 110, 71) ;
+    transform: scale(1.1);
+    transition: .5s;
+    font-size:1em;
+}
+.containerOne{
+    min-height: 320vh;
+    background-color: rgb(31, 31, 31);
+    text-align: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.about article{
+    height: 500px;
+    width: 500px;
+    line-height: 1.5em;
+    color: whitesmoke;
+}
+.image{
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px ;
+}
+.image img{
+    width: 100%;
+    height: 550px;
+}
+article button{
+    border: none;
+    background: none;
+    color: white;
+}
+article input{
+    background-color:  rgb(235, 81, 25);
+    padding: .8em 1.8em;
+    border: none;
+    border-radius: .3em;
+}
+.newsletter{
+    position: relative;
+    width: 70%;
+    height: 100px;
+    background-color:  rgb(184, 68, 27);
+    margin: auto;
+    margin-top: 20px;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    display: flex;
+}
+.newsletter span{
+    flex: 1;
+    text-align: center;
+    padding-top: 30px;
+}
+.newsletter form{
+    flex: 2;
+    padding-top: 30px;
+}
+span{
+    text-decoration: none;
+    color: white;
+    padding: 2em ;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+form input{
+    padding: .5em 2em;
+    margin: 0 1em;
+    border: none;
+    border-radius: .4em;
+}
+.submit{
+    background-color:rgb(255, 68, 0) ;
+    border: none;
+    margin-left: 70px;
+    cursor: pointer;
+    margin-top: .3em;
+}
+.submit:hover{
+    background-color:rgba(255, 68, 0, 0.774) ;
+}
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+b{
+    color: orangered;
+    font-size: larger;
+}
+.cards{
+    min-height: 600px;
+    /* width: fit-content; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin: auto;
+    padding-top: 4em;
+}
+.card{
+    height: 300px;
+    /* width: 370px; */
+    background-color: rgb(22, 21, 21);
+}
+.card:hover{
+    box-shadow: 6px 5px 30px 3px rgba(163, 98, 78, 0.61);
+}
+
+.card p{
+    margin-left: 2em;
+    color: whitesmoke;
+}
+.text{
+    width:150px ;
+    margin-left:2em;
+}
+.text2{
+    width:150px ;
+    margin-left:auto;
+}
+hr{
+    margin-top: 4em;
+    border:1px solid rgba(128, 0, 128, 0.37);
+}
+.card a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+    border-left: 4px solid white;
+    padding: .5em 1em;
+}
+.card a:hover{
+    background-color: rgba(219, 110, 71, 0.568);
+}
+.orange{
+    height: 47px;
+    background-color: rgb(187, 67, 23);
+}
+.upper{
+    margin-top: 2em;
+    border:1px solid rgb(187, 67, 23);
+    background-color:rgb(187, 67, 23) ;
+    padding: 0;
+    margin: 0;
+    width: 35%;
+    float: right;
+}
+.ratings{
+    height: 170px;
+    min-width: 100px;
+    background-color: rgb(22, 21, 21);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ratings div{
+    margin:0 .2em;
+    text-align: center;
+}
+.ratings span{
+    color: rgb(187, 67, 23);
+    text-align: center;
+    font-weight: 600;
+}
+.ratings a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+section p{
+    text-align: center;
+    color: antiquewhite;
+}
+.testimony{
+    display: flex;
+    justify-content: center;
+}
+.testimony div{
+    min-height: 200px;
+    min-width:min-content;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    text-align: center;
+    margin:  0 .3em;
+    border-radius: .4em;
+    padding: 0 1em;
+}
+section hr{
+    border:.6px solid  rgb(187, 67, 23);
+    width: 25%;
+    margin-bottom: 2em;
+}
+.foot img{
+    width: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+footer ul li{
+    list-style: none;
+    padding: .2em 0em;
+}
+footer ul li a{
+    color: black;
+}
+footer div p{
+    font-size: larger;
+    color: rgb(255, 72, 0);
+}
+footer div ul{
+    margin-right: 35px;
+}
+footer{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+footer > div{
+    width: fit-content;
+    margin: .5em;
+    text-align: center;
+}
+.foot span{
+    font-size: 25px;
+    color: rgb(235, 81, 25);
+    font-weight: 600;
+    letter-spacing: .02em;
+    text-shadow: 2px 2px 1px rgb(17, 17, 17);
+}
+h6{
+text-align: center;
+padding-bottom: 3em;
+color: bisque;
+}
+@media (max-width:865px){
+    header{
+        height: 60px;
+        display: flex;
+        text-align: center;
+    }
+}
+@media (max-width:865px){
+    .cards{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        margin: auto;
+        padding-top: 4em;
+    }
+}
+@media (max-width:525px){
+    .cards{
+        /* width: fit-content; */
+        display: flex;
+        flex-direction:column;
+        margin: auto;
+    }
+    .card{
+        height: 300px;
+        width: 350px;
+        background-color: rgb(22, 21, 21);
+    }
+}
+@media (max-width:380px){
+    .image{
+        width: 350px;
+        margin: auto;
+        margin: 2em 0em;
+    }
+}
+@media (max-width:700px){
+    .newsletter{
+        display: block;
+    }
+    header span{
+        float: left;
+        font-size: 35px;
+        font-weight: 700;
+        letter-spacing: .01em;
+        padding: 0em .1em;
+        padding-top: .4em;
+    }
+    main h1{
+        font-size: 1.9em;
+        padding:5em 0;
+    }
+    header div{
+        text-align: right;
+        margin-left: 20px;
+    }
+    .list {
+        list-style: none;
+        display:inline-block;
+    }
+    li a{
+        float: left;
+        margin-right: .7px;
+        padding: 0 .4em;
+    }
+    main input{
+        padding: 1em 2em;
+        border-radius: .9em;
+        background-color: rgb(197, 86, 7);
+        font-size: 17px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-items:center ;
+    }
+    .about article{
+        margin: auto;
+        height: 500px;
+        width: fit-content;
+        line-height: 1.2em;
+        color: whitesmoke;
+    }
+    article input{
+        padding: 6px 25px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .image{
+        max-width: 380px;
+        height: 300px;
+        margin: auto;
+    }
+    .newsletter{
+        position: relative;
+        width: 80%;
+        height: 150px;
+        background-color:  rgb(184, 68, 27);
+        margin: auto;
+        margin-top: 200px;
+        border-top-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    .submit{
+        background-color:rgb(139, 97, 81) ;
+        margin-left: 0px;
+        padding: 15px 35px;
+        cursor: pointer;  
+        font-size: 1em; 
+    }
+    .email{
+        padding:10px 50px;
+    }
+    .ratings{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+    .ratings div{
+        border: .1px solid rgb(192, 88, 56) ;
+        border-radius: .3em;
+    }
+    .ratings div:hover{
+        background-color:rgba(65, 60, 59, 0.267) ;
+        transform: scale(1.02); 
+    }
+    section p{
+        padding:0 1em ;
+    }
+    .testimony{
+        display: grid;
+        grid-gap: .5em;
+    }
+    .long{
+        grid-column: 1/3;
+    }
+    footer{
+        display: grid;
+    }
+}
